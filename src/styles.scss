@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+//@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap');
+
+
+:root{
+    //Colors
+
+    //Primary
+    --darkBlueMail: hsl(217, 28%, 15%);
+    --darkBlueMain: hsl(218, 28%, 13%);
+    --darkBLueFooter: hsl(216, 53%, 9%);
+    --darkBlueTestimonials: hsl(219, 30%, 18%);
+
+    //Accent
+    --cyan: hsl(176, 68%, 64%); //inside call-to-action gradient
+    --blue: hsl(198, 60%, 50%); //inside call-to-action gradient
+    --lightRed: hsl(0, 100%, 63%); //error
+
+    //Neutral
+    --white: hsl(0, 0%, 100%);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+// Headings, Call-to-actions, Header Navigation
+//font-family: 'Raleway', sans-serif;

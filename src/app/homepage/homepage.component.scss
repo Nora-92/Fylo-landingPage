@@ -1,0 +1,245 @@
+.generic-container {
+    background: url(../../assets/images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: contain;
+    background-color: var(--darkBlueMain);
+    border: black 1px solid;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-image {
+    margin-left: 30px;
+    height: 30px;
+}
+
+.logo {
+    color: white;
+}
+
+.container-link {
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin-top: 2rem;
+}
+
+p {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+button {
+    background-color: var(--cyan);
+    width: 15rem;
+    height: 3rem;
+    border-radius: 30px;
+    border: transparent;
+    color: white;
+    margin-top: 2rem;
+    font-size: 15px;
+    font-family: 'Raleway';
+    cursor: pointer;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    grid-template-rows: 20rem 20rem;
+    grid-gap: 0 5rem;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2rem;
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.security {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.real-time{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.productive {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.productive-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.productive-link {
+    margin-top: 2rem;
+    color: var(--cyan);
+    text-decoration: underline!important;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-gap: 5rem;
+    margin-top: 5rem;
+}
+
+.exp-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(219, 30%, 18%)!important;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.exp-1-avatar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 2rem;
+}
+
+.avatar-title {
+    margin-left: 1rem;
+}
+
+.exp-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(219, 30%, 18%)!important;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.exp-2-avatar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+.exp-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(219, 30%, 18%)!important;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.exp-3-avatar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+h3 {
+    color: white;
+    font-size: 14px;
+}
+
+h6 {
+    color: white;
+    font-size: 8px;
+}
