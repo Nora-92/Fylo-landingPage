@@ -1,0 +1,59 @@
+.container-email {
+    background-color: var(--darkBlueMail);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 55rem;
+    height: 20rem;
+    margin-left: 14rem;
+    margin-top: 6rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+h1 {
+    color: white;
+    margin-top: 2rem;
+}
+
+p {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+input {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 30px;
+    border: transparent;
+    font-size: 15px;
+    font-family: 'Raleway';
+    margin-right: 1rem;
+    padding: 1.5rem;
+}
+
+button {
+    background-color: var(--cyan);
+    width: 15rem;
+    height: 3rem;
+    border-radius: 30px;
+    border: transparent;
+    color: white;
+    margin-top: 2rem;
+    font-size: 15px;
+    font-family: 'Raleway';
+    cursor: pointer;
+}

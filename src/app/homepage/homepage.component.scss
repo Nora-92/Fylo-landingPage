@@ -163,6 +163,7 @@ button {
 }
 
 .exp-1 {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -171,7 +172,18 @@ button {
     background-color: hsl(219, 30%, 18%)!important;
     border-radius: 5px;
     padding: 25px;
+
+    &::before {
+        content: "“";
+        position: absolute;
+        top: -50px;
+        left: -15px;
+        color: white;
+        z-index: 0;
+        font-size: 6rem;
+    }
 }
+
 
 .exp-1-avatar {
     display: flex;
@@ -242,4 +254,91 @@ h3 {
 h6 {
     color: white;
     font-size: 8px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contacts-footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+.image-logo {
+    margin-top: 9rem;
+    margin-left: 2rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.telephone {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-container {
+    display: flex;
+
+}
+
+.link-group {    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.link {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    padding: 1rem;
+}
+
+.link:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.social:hover {
+    background-color: var(--cyan);
 }
